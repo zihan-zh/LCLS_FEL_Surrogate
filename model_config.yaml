@@ -776,26 +776,11 @@ input_variables:
     is_constant: false
     value_range: [268.53277587890625, 369.9999694824219]
     value_range_tolerance: 1.0e-08
-<<<<<<< HEAD
   CAMR:IN20:186:YRMS:
-=======
-  CAMR:IN20:186:XRMS:
->>>>>>> e66c699a8b0c5d75e19f25ee7c1c20841d8127ec
     variable_class: ScalarVariable
     default_value: 336.56219482421875
     is_constant: false
-<<<<<<< HEAD
     value_range: [286.2535400390625, 354.7680358886719]
-=======
-    value_range: [300.00012967742794, 349.9998632337955]
-    value_range_tolerance: 1.0e-08
-  CAMR:IN20:186:YRMS:
-    variable_class: ScalarVariable
-    default_value: 329.6774535132277
-    is_constant: false
-    value_range: [250.0012944419921, 349.99996679536895]
->>>>>>> e66c699a8b0c5d75e19f25ee7c1c20841d8127ec
-    value_range_tolerance: 1.0e-08
   XCOR:UNDH:1380:BCTRL:
     variable_class: ScalarVariable
     default_value: -1.4034456796707673e-07
