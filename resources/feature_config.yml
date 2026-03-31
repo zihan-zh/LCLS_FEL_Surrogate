@@ -1,7 +1,3 @@
-# model ID: 2026-03-31_03-45-41_nn
-device: cpu
-input_transformers:
-- resources/lcls_fel_input_scaler.pt
 input_variables:
   QUAD:LI21:211:BACT:
     variable_class: ScalarVariable
@@ -2049,14 +2045,5 @@ input_variables:
     is_constant: false
     value_range: [7.395750045776367, 7.641449928283691]
     value_range_tolerance: 1.0e-08
-model: resources/lcls_fel_final_model_cpu.pt
-model_class: TorchModule
-output_format: tensor
-output_transformers:
-- resources/lcls_fel_output_scaler.pt
 output_variables:
-  hxr_pulse_intensity:
-    is_constant: false
-    value_range_tolerance: 1.0e-08
-    variable_class: ScalarVariable
-precision: double
+  GDET:FEE1:241:ENRC: {variable_class: ScalarVariable, is_constant: false, value_range_tolerance: 1.0e-08}
