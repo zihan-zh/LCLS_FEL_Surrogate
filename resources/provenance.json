@@ -1,0 +1,27 @@
+{
+  "model_id": "2026-03-11_03-40-06_nn_retrain",
+  "source_artifact": "/sdf/data/ad/ard/u/zihanzhu/ml/lcls_fel_tuning/model/2026-03-11_03-40-06_nn_retrain",
+  "n_input_features": 330,
+  "output_variable": "hxr_pulse_intensity",
+  "original_output_variable": "GDET:FEE1:241:ENRC",
+  "training_mode": "RETRAIN",
+  "pretrained_model_path": "/sdf/data/ad/ard/u/zihanzhu/ml/lcls_fel_tuning/model/2026-03-09_20-45-09_nn_retrain/",
+  "original_feature_config": "/sdf/data/ad/ard/u/zihanzhu/ml/lcls_fel_tuning/model/2026-03-09_20-45-09_nn_retrain/feature_config.yml",
+  "model_architecture": {
+    "type": "FELNeuralNetwork",
+    "input_size": 330,
+    "output_size": 1,
+    "hidden_dims": [
+      512,
+      512,
+      256,
+      128,
+      64,
+      16,
+      16
+    ],
+    "dropout": 0.05,
+    "output_activation": "Softplus"
+  },
+  "n_train_samples": 8386820
+}
